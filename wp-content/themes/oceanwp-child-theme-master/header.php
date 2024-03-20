@@ -78,16 +78,8 @@ $lien=get_field('lien_google_maps', 161);
 	</div>
 </div>
 
-<!-- Code pour fermer la popup -->
 
-<script>
-    (function ($) {
-            $('.popup-close').click(function(){ 
-            $('.popup-overlay').hide();
-        }); 
-    })(jQuery);
-</script>
-<!-- Code pour fermer la popup -->
+
 
 <script>
 $('.popup-close').click(function(){
@@ -96,28 +88,5 @@ $('.popup-close').click(function(){
 </script>
 
 
-<?php
 
-/**
- * Shortcode pour ajouter un bouton
- * Ce shortcode affiche un lien vers la page de contact avec le texte "Nous contacter".
- */
- 
-// Le code ci-dessous est commenté pour le rendre inactif
-
-/*
-function contact_btn() {
-
-	// Code du bouton
-	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
-
-	// On retourne le code
-	return $string;
-
-}
-// On publie le shortcode
-add_shortcode('contact', 'contact_btn');
-*/
-
-?>
 
